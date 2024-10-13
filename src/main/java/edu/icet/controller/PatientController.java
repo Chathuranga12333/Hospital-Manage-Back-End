@@ -22,4 +22,10 @@ public class PatientController {
         service.addPatient(patient);
     }
 
+    @DeleteMapping("delete-by-id/{id}")
+    public void deleteById(@PathVariable Integer id){
+        service.deleteById(id);
+    }
+
+
 }

@@ -28,4 +28,9 @@ public class PatientServiceImpl implements PatientService {
     public void addPatient(Patient patient) {
         repository.save(mapper.map(patient, PatientEntity.class));
     }
+
+    @Override
+    public void deleteById(Integer id) {
+        repository.deleteById(id);
+    }
 }
