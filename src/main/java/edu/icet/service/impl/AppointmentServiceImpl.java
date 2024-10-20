@@ -20,4 +20,11 @@ public class AppointmentServiceImpl implements AppointmentService {
         log.info(appointment.toString());
         repository.save(mapper.map(appointment, AppointmentEntity.class));
     }
+
+    @Override
+    public Boolean deleteById(Integer id) {
+        repository.deleteById(id);
+        return true;
+
+    }
 }
