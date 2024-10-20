@@ -1,3 +1,11 @@
 
+N
+java:S1602%",Remove useless curly braces around statement(‹²­’ûÿÿÿÿ8••¤¿ª2
+N
+java:S16026",Remove useless curly braces around statement(Š®Âûýÿÿÿÿ8˜•¤¿ª2
+N
+java:S1602?",Remove useless curly braces around statement(´Óäüüÿÿÿÿ8š•¤¿ª2
+I
+java:S1602H",Remove useless curly braces around statement(›­¨’8›•¤¿ª2
 u
-java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ8ðžå©¨2
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ8œ•¤¿ª2
